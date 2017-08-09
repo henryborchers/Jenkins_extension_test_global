@@ -1,6 +1,6 @@
 def call(Closure body){
     stage("Baz") {
-        node("windows"){
+        node{
             body()
         }
 
