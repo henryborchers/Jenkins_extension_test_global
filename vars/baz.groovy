@@ -1,8 +1,7 @@
-def call(){
+def call(Closure body){
     stage("Baz") {
-        agent any
-        steps {
-            echo "I'm a BAZ"
+        node("windows"){
+            body()
         }
 
     }
