@@ -1,13 +1,16 @@
-
-
-class qux implements Serializable{
+class qux implements Serializable {
     private String name
 
-    def sayHi(){
+    def sayHi() {
         println("HI!!!")
         echo "echo says HI!"
     }
-    def setName(value){
+
+    def setName(value) {
         name = value
+    }
+
+    def getName(){
+        name
     }
 }
