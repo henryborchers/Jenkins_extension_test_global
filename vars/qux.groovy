@@ -1,7 +1,7 @@
-package org.global
+
 
 class qux implements Serializable{
-    static def sayHi(){
+    def sayHi(){
         println("HI!!!")
     }
 }
