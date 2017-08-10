@@ -1,5 +1,5 @@
 class qux {
-    def sayHi(){
+    static def sayHi(){
         println("HI!!!")
     }
 }
