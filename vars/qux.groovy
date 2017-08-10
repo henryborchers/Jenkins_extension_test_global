@@ -1,7 +1,7 @@
 
 
 class qux implements Serializable{
-    def sayHi(){
+    static def sayHi(){
         println("HI!!!")
     }
 }
