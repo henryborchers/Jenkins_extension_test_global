@@ -9,6 +9,9 @@ def call(body) {
 //
     println("body()")
     body()
-    println("config.name = ${config.name}")
+    node {
+        println("inside node")
+        println("config.name = ${config.name}")
+    }
     println("Done running more.groovy")
 }
