@@ -6,8 +6,8 @@ def call(body){
     body.resolveStrategy = Closure.DELEGATE_FIRST
     body.delegate = config
 
-    println("body()")
     println("config.name = ${config.name}")
+    println("body()")
     body()
     println("Done running more.groovy")
 }
