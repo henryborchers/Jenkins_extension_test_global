@@ -4,7 +4,8 @@ def call(body) {
 
 //    println("body.resolveStrategy = Closure.DELEGATE_FIRST")
 //    body.resolveStrategy = Closure.DELEGATE_FIRST
-//    body.delegate = config
+    println("body.delegate = config")
+    body.delegate = config
 //
     println("body()")
     body()
