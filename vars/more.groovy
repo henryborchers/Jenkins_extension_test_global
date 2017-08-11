@@ -7,6 +7,7 @@ def call(body){
     body.delegate = config
 
     println("body()")
+    println("config.name = ${config.name}")
     body()
     println("Done running more.groovy")
 }
