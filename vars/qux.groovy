@@ -1,7 +1,7 @@
 class qux implements Serializable {
     private String name
 
-    def sayHi() {
+    def sayHi(script) {
         echo("${name} says HI!!!")
 //        echo "echo says HI!"
     }
