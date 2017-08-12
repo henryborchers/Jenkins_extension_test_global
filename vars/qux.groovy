@@ -2,7 +2,8 @@ class qux implements Serializable {
     private String name
 
     def sayHi() {
-        echo "echo says HI!"
+        println("HI!!!")
+//        echo "echo says HI!"
     }
 
     def setName(value) {
