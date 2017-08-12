@@ -7,6 +7,7 @@ def call(body) {
 
         println("inside node")
         println("config.name = ${config.name}")
+        println("config = ${config}")
     }
     println("Done running more.groovy")
 }
