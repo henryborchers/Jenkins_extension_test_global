@@ -7,6 +7,7 @@ class qux implements Serializable {
     }
 
     def setName(value) {
+        println("Setting name to ${value}")
         name = value
     }
 
