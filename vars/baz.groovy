@@ -5,7 +5,7 @@ def call(Map args) {
         script {
             echo "I have a message at it is ${args.message}"
             println(body)
-            body.body()
+            args.body()
 
         }
         echo "ending"
