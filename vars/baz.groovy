@@ -1,9 +1,12 @@
-def call(Closure body){
+def call(Closure body) {
     stage("Baz") {
-        node{
+//        node{
+        script {
             println(body)
             body()
+
         }
+//        }
 
     }
 }
