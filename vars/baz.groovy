@@ -1,11 +1,11 @@
-def call(Map args) {
+def call(Closure body) {
     stage("Baz") {
 //        node{
         echo "Starting"
         script {
-            echo "I have a message at it is ${args.message}"
+            echo "I have a message at it is ${message}"
             println(body)
-            args.body()
+            body()
 
         }
         echo "ending"
