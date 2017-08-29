@@ -4,11 +4,11 @@ def call(body) {
     body.resolveStrategy = Closure.DELEGATE_FIRST
     body.delegate = config
     body()
-    node {
+//    node {
 
         println("inside node")
         println("config.name = ${config.name}")
         println("config = ${config}")
-    }
+//    }
     println("Done running more.groovy")
 }
